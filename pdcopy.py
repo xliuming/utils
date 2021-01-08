@@ -2,6 +2,8 @@
 # -*-coding:utf-8-*-
 import base64
 import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 buffer = []
 for line in sys.stdin:
